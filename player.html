@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rifsikal</title>
+    <link rel="stylesheet" href="player.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section id="home">
+      <nav>
+        <a href="">
+         <img src="r2.png">
+        </a>
+        <ul>
+          <li><a href="">Premium</a></li>
+          <li><a href="">Support</a></li>
+          <li><a href="">Download</a></li>
+          <li><a href="awal.html">Exit</a></li>
+        </ul>
+      </nav>
+
+      <div class="content">
+        <!-- ----------     SONGS LIST      ---------- -->
+
+        <div class="songs-list">
+          <h1 id="list-name">Daftar Putar</h1>
+          <ol class="items">
+          </ol>
+        </div>
+
+        <div class="thumnail">
+          <img id="thumnail" src="cover/cover2.jpg" alt="" />
+        </div>
+      </div>
+
+      <div class="dwn-info">
+        <div class="info-tab" style="margin-bottom: -7vw;">
+         <h1><span class="title">Title </span>Party Police</h1>
+         <p><span class="company">Singer</span>Alvvays</p>
+
+         <div class="bar-full">
+           <div class="bar-progress"></div>
+         </div>
+        </div>
+       </div>
+
+      <!-- ----------     PLAY TOOLS      ---------- -->
+
+      <div class="play-tools">
+        <input type="range" id="progressBar" max="100" min="0" value="0"/>
+
+        <div class="played">00:00 / 05:00</div>
+
+        <div class="controls">
+          <i
+            class="fa-solid fa-backward-step"
+            title="Previous"
+            style="padding: 1% 2%"
+          ></i>
+          <i class="fa-solid fa-backward" title="10s Back "></i>
+          <i class="fa-solid fa-play playPause" title="Play" style="padding: 1% 2%"></i>
+          <i class="fa-solid fa-forward" title="10s Forward"></i>
+          <i 
+            class="fa-solid fa-forward-step"
+            title="Next"
+            style="padding: 1% 2%"
+          ></i>
+        </div>
+      </div>
+    </section>
+
+  <script src="player.js"></script>
+  </body>
+</html>

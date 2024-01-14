@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Login</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+<div class="wrapper">
+      <div class="title-text">
+        <div class="title login">Login</div>
+        <div class="title signup">Sign Up</div>
+      </div>
+      <div class="form-container">
+        <div class="slide-controls">
+          <input type="radio" name="slide" id="login" checked>
+          <input type="radio" name="slide" id="signup">
+          <label for="login" class="slide login">Login</label>
+          <label for="signup" class="slide signup">Sign Up</label>
+          <div class="slider-tab"></div>
+        </div>
+        <div class="form-inner">
+          <form action="#" id="login-form" class="login">
+            <pre>
+            </pre>
+            <div class="field">
+              <input type="text" id="loginUsername" placeholder="Enter Username">
+            </div>
+            <div class="field">
+              <input type="password" id="loginPassword" placeholder="Enter Password">
+            </div>
+            <div class="pass-link"><a href="#">Forgot password?</a></div>
+            <div class="field btn">
+              <div class="btn-layer"></div>
+              <input type="submit" id="login">
+            </div>
+            <div class="signup-link">Don't have an acount? <a href="">Sign Up</a></div>
+          </form>
+          <form action="#" id="form" class="signup">
+            <div class="field">
+              <input type="text" id="username" placeholder="Enter Username">
+              <small></small>
+            </div>
+            <div class="field">
+              <input type="text" id="email" placeholder="Enter Email">
+              <small></small>
+            </div>
+            <div class="field">
+              <input type="password" id="password" placeholder="Enter Password">
+              <small></small>
+            </div>
+            <div class="field">
+              <input type="password" id="password2" placeholder="Repeat password">
+              <small></small>
+            </div>
+            <div class="field btn">
+              <div class="btn-layer"></div>
+              <input type="submit">
+            </div>
+            <div class="signup-link">have an acount? <a href="">Login</a></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  <script  src="./script.js"></script>
+  <script src="./login.js"></script>
+
+</body>
+</html>
