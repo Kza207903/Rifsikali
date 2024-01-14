@@ -1,0 +1,614 @@
+html {
+    background-image: url(UT1.png);
+    overflow:auto;
+}
+html::-webkit-scrollbar{
+    display: none;
+}
+span {
+    color: white;
+}
+#ok:hover{
+    width: 80px;
+    height: 40px;
+}
+#container1 {
+    border: 1px solid black;
+    overflow: auto;
+    width: 15%;
+    height: 734px;
+    border-radius: 15px;
+    margin-top: 6px;
+    float: left;
+    background-color: rgba(53, 54, 55, 0.684);
+}
+
+#container2 {
+    border: 1px solid black;
+    overflow: auto;
+    width: 84.5%;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 6px;
+    float: right;
+    background-color: rgba(53, 54, 55, 0.684);
+
+}
+
+#container {
+    border: 1px solid black;
+    overflow: auto;
+    width: 84.5%;
+    height: 677px;
+    border-radius: 15px;
+    margin-top: 5px;
+    float: right;
+    background-color: rgba(53, 54, 55, 0.684);
+    overflow-y: scroll;
+}
+
+#container::-webkit-scrollbar {
+    display: none;
+}
+
+#container3 {
+    border: 1px solid white;
+    width: 100%;
+    height: 80px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    float: right;
+}
+ .search{
+    width:70%;
+    background: transparent;
+    border: 1px solid white;
+    max-width: 850px;
+    float: left;
+    align-items: center;
+    margin-top: 4px;
+    border-radius: 18px;
+    margin-left: 20px;
+    padding: 5px 15px;
+ }
+ .search input {
+    background:transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 6px ;
+    color: white;
+    padding-right: 630px;
+ }
+ .search button{
+    background:transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+ }
+ .side {
+    width: 90%;
+    height: 30px;
+    margin-top: 18px;
+    margin-left: 12px;
+    border-radius: 10px;
+    cursor: grab;
+ }
+ .side:hover{
+    background-color: red;
+ }
+ .side1{
+    width: 20%;
+    float: left;
+ }
+ .side2{
+    width: 65%;
+    height: 30px;
+    float: left;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-left: 12px;
+ }
+
+.wadah {
+    border: 1px solid white;
+    height: 370px;
+    width: 96%;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.pertama {
+    margin-left: 90px;
+    border: 1px solid white;
+    width: 15%;
+    height: 200px;
+    border-radius: 15px;
+    text-align: center;
+    float: left;
+    background-color: white;
+    box-shadow: 5px 5px;
+    transition: 0.4s;
+    cursor: grab;
+}
+
+.pertama:hover {
+    width: 16%;
+    height: 215px;
+    box-shadow: 10px 10px;
+}
+.pertama1{
+    width: 80%;
+    height: 130px;
+    margin-top: 10px;
+margin-left: 17px;
+border-radius: 15px;
+transition: 0.2s;
+cursor: grab;
+
+}
+.pertama1:hover{
+    width:170px;
+    height: 150px;
+}
+img{
+    transition: 0.3s;
+}
+img:hover{
+    width: 170px;
+    height: 150px;
+}
+.kedua {
+    border: 1px solid white;
+    width: 15%;
+    height: 200px;
+    border-radius: 15px;
+    text-align: center;
+    float: left;
+    margin-left: 25px;
+    background-color: white;
+    box-shadow: 5px 5px;
+    transition: 0.4s;
+    cursor: grab;
+
+}
+
+.kedua:hover {
+    width: 16%;
+    height: 215px;
+    box-shadow: 10px 10px;
+}
+
+.ketiga {
+    border: 1px solid white;
+    width: 15%;
+    height: 200px;
+    border-radius: 15px;
+    text-align: center;
+    float: left;
+    margin-left: 25px;
+    background-color: white;
+    box-shadow: 5px 5px;
+    transition: 0.4s;
+    cursor: grab;
+
+}
+
+.ketiga:hover {
+    width: 16%;
+    height: 215px;
+    box-shadow: 10px 10px;
+}
+
+.keempat {
+    border: 1px solid white;
+    width: 15%;
+    height: 200px;
+    border-radius: 15px;
+    text-align: center;
+    float: left;
+    margin-left: 25px;
+    background-color: white;
+    box-shadow: 5px 5px;
+    transition: 0.4s;
+    cursor: grab;
+
+}
+
+.keempat:hover {
+    width: 16%;
+    height: 215px;
+    box-shadow: 10px 10px;
+}
+
+.kelima {
+    border: 1px solid white;
+    width: 15%;
+    height: 200px;
+    border-radius: 15px;
+    text-align: center;
+    float: left;
+    margin-left: 25px;
+    background-color: white;
+    box-shadow: 5px 5px;
+    transition: 0.4s;
+    cursor: grab;
+}
+
+.kelima:hover {
+    width: 16%;
+    height: 215px;
+    box-shadow: 10px 10px;
+}
+#footer{
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 25px;
+}
+li {
+    color: white;
+    font-size: 18px;
+}
+p{
+    font-size: 18px;
+    font-family: fantasy;
+}
+.peh{
+    border: 1px solid white;
+    width: 97%;
+    height: 95%;
+    margin-top: 18px;
+    margin-left: 18px;
+    border-radius: 15px;
+
+}
+.peh1{
+    width: 96%;
+    height: 30%;
+    margin-top: 13px;
+    margin-left: 23px;
+    border-radius: 15px;
+}
+.peh2{
+    border:1px solid white;
+    width: 96%;
+    height:55%;
+    margin-top: 5px;
+    overflow-y: scroll;
+    margin-left: 23px;
+    border-radius: 15px;
+}
+
+.atas{
+    width: 100%;
+    height: 60px;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #131313;
+}
+.cover{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    position: absolute;
+    justify-content: space-between;
+    margin-top: 55px;
+    margin-left: 75px;
+    transform-origin: 0% 0%;
+}
+.padding{
+    width: 500px;
+    height: flex;
+    padding-left: 200px;
+    font-size:30px;
+    color: #fff;
+}
+.welcome{
+    height: flex;
+    width: 80%;
+    margin-top: 150px;
+    margin-left: 30px;
+    color: #fff;
+    font-size: 40px;
+}
+.viral{
+    width: 80%;
+    height: 80px;
+    margin-left: 30px;
+    color: #fff;
+    margin-top: 60px;
+}
+.pehh{
+    border: 1px solid white;
+    width: 67%;
+    height: 95%;
+    margin-top: 18px;
+    float: left;
+    margin-left: 18px;
+    border-radius: 15px;
+
+}
+/*    Music Playernya        */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Ubuntu:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+:root{
+    --text-color : white;
+    --bg-color: #333;
+}
+
+a, .profile{
+    color: var(--text-color);
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+}
+
+
+#home{
+    width: flex;
+    height: 100vh;
+    border-radius: 15px;
+    margin-top:22px;
+    background-color: #000;
+    position: relative;
+    float: right;
+}
+#home nav{
+    width: 40%;
+    background-color: rgba(53, 54, 55, 0.684);
+    backdrop-filter: blur(12px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2vw 8vw;
+}
+
+#home a img{
+    width: 135px;
+}
+
+#home nav ul{
+    display: flex;
+    flex-basis: 27%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa-user{
+    color: white;
+    scale: 1.1;
+    border: 2px solid var(--text-color);
+    border-radius: 50%;
+    padding: 9px 10px;
+    margin-right: 19px;
+}
+
+.fa-xl{
+    color: rgba(206, 201, 201, 0.863);
+    scale: 0.5;
+    margin-right: 19px;
+    font-weight: 100;
+    position: relative;
+    top: 1px;
+}
+
+.play-tools{
+    width: 83%;
+    height: 70px;
+    background-image: linear-gradient(rgb(54, 54, 54), rgb(43, 42, 43));
+    text-align: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-left: 28px;
+     margin-top: 20px;
+     justify-content: space-evenly;
+     border-radius: 100px;
+     max-height: 70px;
+}
+
+#progressBar{
+    margin-top: 1%;
+    width: 40%;
+    height: 4px;
+    cursor: pointer;
+    border-radius: 80px;
+    transition: all 0.4s;
+}
+
+#progressBar:hover{
+    height: 6px;
+}
+
+.controls{
+    width: 40%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 60px;
+    background-color: #000;
+    margin-top: 9px;
+}
+
+.controls i{
+    border-radius: 50%;
+    padding: 10px;
+    color: var(--text-color);
+    text-align: center;
+    cursor: pointer;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60%;
+    width: 100%;
+}
+
+.songs-list{
+    width: 100%;
+    background-size: cover;
+    background-color: #0a0a0a;
+    font-family: ubuntu;
+}
+.songs-list:hover{
+    background-color: rgb(32, 32, 32);
+}
+.items{
+min-height: auto;
+overflow-y: auto;
+scrollbar-width: thin;
+scroll-behavior: smooth;
+}
+.items::-webkit-scrollbar-thumb{
+    background-color: rgb(235, 235, 235);
+    border-radius: 50px;
+}
+.items::-webkit-scrollbar{
+    width: 4px;
+    background-color: transparent;
+    border-radius: 50px;
+}
+
+.item{
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-variant-numeric: lining-nums;
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item img{
+    width: 50px;
+}
+
+.title{
+    display: inline-block;
+    transform: translate(0%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:17px;
+    color: beige;
+    max-width: 30%;
+}
+
+.company{
+    display: inline-block;
+    transform: translate(0%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:17px;
+    max-width: 30%;
+    color: beige;
+}
+
+.helo{
+    display: inline-block;
+    font-size: 16px;
+    transform: translate(0, -50%);
+}
+
+.thumnail{
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 13%;
+    position: relative;
+}
+
+.thumnail img{
+    width: 250px;
+    height: 250px;
+    filter: drop-shadow(1px 2px 12px rgb(48, 49, 48));
+    border-radius: 50%;
+    animation: rotate 20s linear infinite;
+    animation-play-state: running;
+}
+
+.song-info{
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    color: antiquewhite;
+    width: 90%;
+    height: 95%;
+    border-radius: 12px;
+}
+
+.info-tab{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: #eee;
+}
+.info-tab span{
+    letter-spacing: 0.01em;
+    font-family: poppins, sans-serif;
+    font-size: 16px;
+}
+.info-tab h1{
+     font-size: 18px;
+     font-weight: 500;
+     font-family: 'poppins', sans-serif;
+     color: aqua;
+}
+
+.info-tab p{
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+}
+
+.playPause{
+    cursor: pointer;
+}
+
+.played{
+    position: absolute;
+    margin-bottom: 45px;
+    color: #eee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*                   ADDITIONAL PROGRESSBAR                         */
+.bar-full{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    margin-top: 10px;
+    height: 2px;
+    box-shadow: 0px 0px 8px black;
+}
+
+.bar-progress{
+    width: 0%;
+    height: 100%;
+    background-color: aqua;
+    box-shadow: 0px 0px 8px aqua;
+    transition: all 1s;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
